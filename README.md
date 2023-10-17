@@ -55,6 +55,8 @@ Buka GitBash lalu masukkan perintah berikut:
 
 $ git add README.md
 
+![alt text](https://github.com/nurulfir/latihanVCS/blob/main/WhatsApp%20Image%202023-10-17%20at%2022.32.00_43605292.jpg?raw=true)
+
 8. Buat Commit
 
 Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:
