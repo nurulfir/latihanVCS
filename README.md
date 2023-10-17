@@ -39,6 +39,8 @@ Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya 
 
 Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu, Command Prompt akan muncul seperti di bawah ini.
 
+![alt text](https://github.com/nurulfir/latihanVCS/blob/main/WhatsApp%20Image%202023-10-17%20at%2022.18.47_36bd0e61.jpg?raw=true)
+
 6. Ubah Folder Menjadi Repository
 
 Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:
