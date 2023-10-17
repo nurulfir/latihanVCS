@@ -5,43 +5,73 @@ Deskripsi
 File README.md ini berisi panduan tentang cara menggunakan Git, sistem kontrol versi yang populer dan digunakan secara luas dalam pengembangan perangkat lunak. Dalam panduan ini, kami akan menjelaskan langkah-langkah yang perlu Anda ikuti untuk menggunakan Git dengan efektif.
 
 Langkah-langkah
+
 Instalasi Git:
-Pastikan Git sudah terinstal di komputer Anda. Jika belum, Anda dapat mengunduhnya melalui situs web resmi Git di https://git-scm.com/downloads.
+1. Pastikan Git sudah terinstal di komputer Anda. Jika belum, Anda dapat mengunduhnya melalui situs web resmi Git di https://git-scm.com/
+![alt text](https://github.com/nurulfir/latihanVCS/blob/nurulfir-patch-1/Gambar1.jpg?raw=true)
+2. Ikuti instruksi instalasi yang disediakan oleh installer Git.
+
+1. Login GitHub:
+
+Login GitHub ke website https://github.com/
 ![alt text](?raw=true)
 
-Ikuti instruksi instalasi yang disediakan oleh installer Git.
-Konfigurasi Awal:
-Buka terminal atau command prompt di komputer Anda.
-Konfigurasi identitas Anda dengan menjalankan perintah berikut:
- git config --global user.name "Nama Anda" git config --global user.email "email@anda.com" 
-Ganti "Nama Anda" dengan nama Anda dan "email@anda.com" dengan alamat email Anda.
-Membuat Repositori:
-Buka terminal atau command prompt di direktori proyek Anda.
-Jalankan perintah berikut untuk membuat repositori baru:
- git init 
-Menambahkan File ke Repositori:
-Letakkan file-file proyek Anda di direktori repositori.
-Jalankan perintah berikut untuk menambahkan file-file tersebut ke repositori:
- git add . 
-Membuat Commit:
-Jalankan perintah berikut untuk membuat commit dengan pesan deskriptif:
- git commit -m "Pesan commit Anda" 
-Ganti "Pesan commit Anda" dengan pesan yang menjelaskan perubahan yang Anda lakukan.
-Membuat Branch:
-Jalankan perintah berikut untuk membuat branch baru:
- git branch nama-branch 
-Ganti "nama-branch" dengan nama branch yang Anda inginkan.
-Beralih ke Branch:
-Jalankan perintah berikut untuk beralih ke branch yang baru dibuat:
- git checkout nama-branch 
-Ganti "nama-branch" dengan nama branch yang ingin Anda gunakan.
-Menggabungkan Branch:
-Jalankan perintah berikut untuk menggabungkan branch saat ini dengan branch lain:
- git merge nama-branch-lain 
-Ganti "nama-branch-lain" dengan nama branch yang ingin Anda gabungkan dengan branch saat ini.
-Mengunggah ke Repositori Jarak Jauh:
-Buat repositori kosong di platform Git hosting seperti GitHub atau GitLab.
-Ikuti instruksi yang disediakan oleh platform untuk menghubungkan repositori lokal Anda dengan repositori jarak jauh.
-Jalankan perintah berikut untuk mengunggah perubahan ke repositori jarak jauh:
- git push origin nama-branch 
-Ganti "nama-branch" dengan nama branch yang ingin Anda unggah.
+2. Selanjutnya Anda bisa melakukan login awal pada Git menggunakan Command Prompt (Windows) Git Bash
+   
+
+  $ git config --global user.name "UsernameAnda"
+
+  $ git config --global user.email "EmailAnda@gmail.com"
+  
+
+3. Buat Repository
+
+Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.
+
+4. Buat Folder
+
+Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.
+
+5. Buka Folder Menggunakan Git Bash
+
+Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu, Command Prompt akan muncul seperti di bawah ini.
+
+6. Ubah Folder Menjadi Repository
+
+Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:
+
+
+  $ git init
+  
+
+7. Tambahkan File ke Repository
+
+Buka GitBash lalu masukkan perintah berikut:
+
+
+  $ git add README.md
+  
+
+8. Buat Commit
+
+Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:
+
+
+  $ git commit -m "pesan commit"
+  
+
+9. Remote Repository Github
+Remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk. Masukkan perintah berikut ini untuk melakukan remote repository:
+
+
+  $ git remote add origin https://github.com/UserNameGit/NamaRepository.git
+  
+
+10. Push ke GitHub 
+Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas. Masukkan perintah berikut untuk melakukan push ke GitHub:
+
+
+  $ git push -u origin master
+
+
+Perintah di atas akan menampilkan pop up sign in GitHub. Anda perlu login untuk melanjutkan proses push ke GitHub.
