@@ -22,6 +22,7 @@ $ git config --global user.name "UsernameAnda"
 
 $ git config --global user.email "EmailAnda@gmail.com"
 
+![alt text](https://github.com/nurulfir/latihanVCS/blob/main/WhatsApp%20Image%202023-10-18%20at%2000.11.10_32ad7fd0.jpg?raw=true)
 3. Buat Repository
 
 Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.
