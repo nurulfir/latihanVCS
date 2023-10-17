@@ -14,7 +14,7 @@ Instalasi Git:
 1. Login GitHub:
 
 Login GitHub ke website https://github.com/
-![alt text](?raw=true)
+![alt text](https://github.com/nurulfir/latihanVCS/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.56.32_af1ef305.jpg?raw=true)
 
 2. Selanjutnya Anda bisa melakukan login awal pada Git menggunakan Command Prompt (Windows) Git Bash
 
