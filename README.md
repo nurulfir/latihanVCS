@@ -7,7 +7,7 @@ File README.md ini berisi panduan tentang cara menggunakan Git, sistem kontrol v
 Langkah-langkah
 Instalasi Git:
 Pastikan Git sudah terinstal di komputer Anda. Jika belum, Anda dapat mengunduhnya melalui situs web resmi Git di https://git-scm.com/downloads.
-![alt text](?raw=true)
+![alt text](https://github.com/nurulfir/latihanVCS/blob/nurulfir-patch-1/Gambar1.jpg?raw=true)
 
 Ikuti instruksi instalasi yang disediakan oleh installer Git.
 Konfigurasi Awal:
