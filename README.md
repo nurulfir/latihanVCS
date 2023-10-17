@@ -27,6 +27,8 @@ $ git config --global user.email "EmailAnda@gmail.com"
 
 Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.
 
+![alt text](https://github.com/nurulfir/latihanVCS/blob/main/WhatsApp%20Image%202023-10-18%20at%2000.14.22_d430e05a.jpg?raw=true)
+
 4. Buat Folder
 
 Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.
