@@ -33,6 +33,8 @@ Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombo
 
 Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.
 
+![alt text](https://github.com/nurulfir/latihanVCS/blob/main/WhatsApp%20Image%202023-10-17%20at%2022.12.02_1e8b0c0d.jpg?raw=true)
+
 5. Buka Folder Menggunakan Git Bash
 
 Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu, Command Prompt akan muncul seperti di bawah ini.
